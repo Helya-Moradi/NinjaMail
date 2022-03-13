@@ -1,0 +1,105 @@
+@mixin menu-style {
+    font-size: 13px;
+}
+
+.menu-logo {
+    .logo-text {
+        font-size: 23px;
+    }
+
+    .logo-photo {
+        width: 65px;
+        height: 36px;
+    }
+}
+
+.menu-list {
+    .menu-link {
+        @include menu-style();
+        width: 80px;
+    }
+}
+
+.btn-main {
+    @include menu-style();
+}
+
+.btn-outline {
+    @include menu-style();
+}
+
+.hero {
+    margin-bottom: 47vw;
+
+    &-body {
+        max-width: 290px;
+        left: 12%;
+    }
+
+    &-header {
+        max-width: 290px;
+        font-size: 28px;
+        top: 11vw;
+        left: 12%;
+    }
+
+    &-text {
+        font-size: 10px;
+    }
+}
+
+.video {
+    &-header {
+        font-size: 40px;
+    }
+}
+
+.cir5-outline,
+.cir6-outline,
+.cir2,
+.sqr7,
+.sqr9 {
+    display: none;
+}
+
+.sqr6 {
+    width: 25px;
+    height: 25px;
+    left: 94vw;
+    top: 16vw;
+}
+
+.sqr10 {
+    left: 94vw;
+    top: -2vw;
+}
+
+.sqr11 {
+    left: 93vw;
+    top: 32vw;
+}
+
+.sec4 {
+    .sec4-cards {
+        .card-img-overlay {
+            top: 9vw;
+        }
+    }
+
+    .form {
+        .email-box {
+            width: 26.5vw;
+            padding: .3rem .8rem;
+        }
+
+        .email-text {
+            padding: .3rem .8rem;
+        }
+    }
+}
+
+.get-started {
+    .header {
+        font-size: 35px;
+    }
+}

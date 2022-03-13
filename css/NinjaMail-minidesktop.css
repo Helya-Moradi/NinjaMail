@@ -1,0 +1,81 @@
+.menu-logo .logo-text {
+  font-size: 23px;
+}
+.menu-logo .logo-photo {
+  width: 65px;
+  height: 36px;
+}
+
+.menu-list .menu-link {
+  font-size: 13px;
+  width: 80px;
+}
+
+.btn-main {
+  font-size: 13px;
+}
+
+.btn-outline {
+  font-size: 13px;
+}
+
+.hero {
+  margin-bottom: 47vw;
+}
+.hero-body {
+  max-width: 290px;
+  left: 12%;
+}
+.hero-header {
+  max-width: 290px;
+  font-size: 28px;
+  top: 11vw;
+  left: 12%;
+}
+.hero-text {
+  font-size: 10px;
+}
+
+.video-header {
+  font-size: 40px;
+}
+
+.cir5-outline,
+.cir6-outline,
+.cir2,
+.sqr7,
+.sqr9 {
+  display: none;
+}
+
+.sqr6 {
+  width: 25px;
+  height: 25px;
+  left: 94vw;
+  top: 16vw;
+}
+
+.sqr10 {
+  left: 94vw;
+  top: -2vw;
+}
+
+.sqr11 {
+  left: 93vw;
+  top: 32vw;
+}
+
+.sec4 .sec4-cards .card-img-overlay {
+  top: 9vw;
+}
+.sec4 .form .email-box {
+  width: 26.5vw;
+  padding: 0.3rem 0.8rem;
+}
+.sec4 .form .email-text {
+  padding: 0.3rem 0.8rem;
+}
+
+.get-started .header {
+  font-size: 35px;
+}/*# sourceMappingURL=NinjaMail-minidesktop.css.map */

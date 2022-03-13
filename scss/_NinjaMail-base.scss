@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+$color-primary:#4BA87D;
+$color-secondary:#CAEAC7;
+$color-white:#fff;
+$color-black:#000;
+$color-gray:#F7F7F7;
+
+$font-Raleway:'Raleway';
+$font-PlayfairDisplay:'Playfair Display';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-Raleway, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+@mixin menu-style {
+    font-weight: 800;
+    font-size: 17px;
+    letter-spacing: 1.275px;
+    text-transform: uppercase;
+}
+
+.btn-main {
+    @include menu-style();
+    border-radius: 0;
+    color: $color-white;
+    background-color: $color-primary;
+    border: 2px solid $color-primary;
+
+    &:hover {
+        background-color: $color-white;
+        color: $color-primary;
+        border: 2px solid $color-primary;
+    }
+}
+
+.btn-outline {
+    @include menu-style();
+    border-radius: 0;
+    background-color: $color-white;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+
+    &:hover {
+        color: $color-white;
+        background-color: $color-primary;
+        border: 2px solid $color-primary;
+    }
+
+    &:active {
+        outline: none;
+    }
+}
+
+@mixin main-header {
+    font-family: Playfair Display;
+    font-weight: 900;
+    line-height: 3.3vw;
+    font-size: 3vw;
+}

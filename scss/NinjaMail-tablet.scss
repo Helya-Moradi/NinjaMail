@@ -1,0 +1,137 @@
+@mixin menu-style {
+    font-size: 10px;
+}
+
+.menu-logo {
+    .logo-text {
+        font-size: 17px;
+    }
+
+    .logo-photo {
+        width: 40px;
+        height: 24px;
+    }
+}
+
+.menu-list {
+    .menu-link {
+        @include menu-style();
+        width: 65px;
+    }
+}
+
+.btn-main {
+    @include menu-style();
+}
+
+.btn-outline {
+    @include menu-style();
+}
+
+.hero {
+
+    margin-bottom: 50vw;
+
+    &-body {
+        max-width: 212px;
+        left: 10%;
+    }
+
+    &-header {
+        font-size: 20px;
+        max-width: 212px;
+        left: 10%;
+        top: 13vw;
+    }
+
+    &-text {
+        font-size: 8px;
+    }
+}
+
+.cir1-outline {
+    left: 4vw;
+    top: 156px;
+}
+
+.cir2-outline {
+    display: none;
+}
+
+.cir3-outline {
+    width: 10px;
+    height: 10px;
+    left: 48vw;
+    top: 41vw;
+}
+
+.cir4-outline {
+    display: none;
+}
+
+.cir1 {
+    width: 30px;
+    height: 30px;
+}
+
+.sqr1 {
+    width: 25px;
+    height: 25px;
+}
+
+.sqr2 {
+    width: 25px;
+    height: 25px;
+}
+
+.sqr3 {
+    width: 40px;
+    height: 40px;
+}
+
+.sqr4 {
+    width: 32px;
+    height: 32px;
+    left: 11vw;
+    top: 38vw;
+}
+
+.sqr5 {
+    display: none;
+}
+
+.video {
+    &-header {
+        font-size: 30px;
+    }
+}
+
+.sec4 {
+    .sec4-cards {
+        .card-img-overlay {
+            top: 8vw;
+        }
+    }
+
+    .form {
+        .email-box {
+            width: 24vw;
+            padding: .14rem .8rem;
+        }
+
+        .email-box::placeholder {
+            font-size: 1.7vw;
+        }
+
+        .email-text {
+            padding: .22rem .8rem;
+            font-size: 1.7vw;
+        }
+    }
+}
+
+.get-started {
+    .header {
+        font-size: 28px;
+    }
+}

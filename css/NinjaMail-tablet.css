@@ -1,0 +1,117 @@
+.menu-logo .logo-text {
+  font-size: 17px;
+}
+.menu-logo .logo-photo {
+  width: 40px;
+  height: 24px;
+}
+
+.menu-list .menu-link {
+  font-size: 10px;
+  width: 65px;
+}
+
+.btn-main {
+  font-size: 10px;
+}
+
+.btn-outline {
+  font-size: 10px;
+}
+
+.hero {
+  margin-bottom: 50vw;
+}
+.hero-body {
+  max-width: 212px;
+  left: 10%;
+}
+.hero-header {
+  font-size: 20px;
+  max-width: 212px;
+  left: 10%;
+  top: 13vw;
+}
+.hero-text {
+  font-size: 8px;
+}
+
+.cir1-outline {
+  left: 4vw;
+  top: 156px;
+}
+
+.cir2-outline {
+  display: none;
+}
+
+.cir3-outline {
+  width: 10px;
+  height: 10px;
+  left: 48vw;
+  top: 41vw;
+}
+
+.cir4-outline {
+  display: none;
+}
+
+.cir1 {
+  width: 30px;
+  height: 30px;
+}
+
+.sqr1 {
+  width: 25px;
+  height: 25px;
+}
+
+.sqr2 {
+  width: 25px;
+  height: 25px;
+}
+
+.sqr3 {
+  width: 40px;
+  height: 40px;
+}
+
+.sqr4 {
+  width: 32px;
+  height: 32px;
+  left: 11vw;
+  top: 38vw;
+}
+
+.sqr5 {
+  display: none;
+}
+
+.video-header {
+  font-size: 30px;
+}
+
+.sec4 .sec4-cards .card-img-overlay {
+  top: 8vw;
+}
+.sec4 .form .email-box {
+  width: 24vw;
+  padding: 0.14rem 0.8rem;
+}
+.sec4 .form .email-box::-moz-placeholder {
+  font-size: 1.7vw;
+}
+.sec4 .form .email-box:-ms-input-placeholder {
+  font-size: 1.7vw;
+}
+.sec4 .form .email-box::placeholder {
+  font-size: 1.7vw;
+}
+.sec4 .form .email-text {
+  padding: 0.22rem 0.8rem;
+  font-size: 1.7vw;
+}
+
+.get-started .header {
+  font-size: 28px;
+}/*# sourceMappingURL=NinjaMail-tablet.css.map */

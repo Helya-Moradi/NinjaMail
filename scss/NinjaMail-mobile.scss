@@ -1,0 +1,349 @@
+$color-secondary:#CAEAC7;
+
+.menu-list {
+    .menu-link {
+        display: none;
+    }
+
+    .menu-btn {
+        margin-left: 0px;
+    }
+}
+
+.hero {
+
+    margin-bottom: 15vw;
+
+    &-body {
+        top: 50px;
+        left: 0;
+        max-width: 100%;
+        padding: 10px;
+        position: relative;
+    }
+
+    &-header {
+        font-size: 36px;
+        padding: 10px;
+        position: absolute;
+        left: 0;
+        top: 22px;
+        max-width: 100%;
+    }
+
+    &-text {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 10px 0 !important;
+    }
+
+    &-photo {
+        left: 0;
+        padding: 10px;
+        position: relative;
+    }
+
+    &-img {
+        width: 100%;
+    }
+}
+
+.bg-shapes1 {
+    display: none;
+}
+
+.video {
+    padding: 12vw 15px;
+    height: 165vw;
+
+    .card {
+        width: 100%;
+
+        .btn {
+            padding: 6px 15px;
+        }
+
+        .card-img-overlay {
+            padding: 14vw 0;
+        }
+    }
+
+    &-header {
+        font-size: 22px;
+    }
+}
+
+.sec3 {
+    .sec3-bg {
+        transform: skewY(-20deg);
+        background: $color-secondary url(../img/bg-effect-light-2.png) no-repeat;
+        background-size: 120vw;
+        background-position: -21vw 83vw;
+        height: 164vw;
+        top: -24.5vw;
+    }
+
+    .containers {
+        flex-direction: column;
+        padding: 0 15px;
+        top: -90vw;
+    }
+
+    .card-sec3 {
+        width: 60vw;
+        box-shadow: 0px 0px 12px -2px rgb(147 146 146 / 92%);
+
+        .card-body {
+            padding: 4vw 4.2vw;
+        }
+
+        .card-text {
+            line-height: 4.5vw;
+            font-size: 2.5vw;
+        }
+
+        .card-link {
+            font-size: 2.5vw;
+        }
+    }
+
+    .card1 {
+        align-self: flex-start;
+    }
+
+    .card2 {
+        margin: 4vw 0;
+        align-self: flex-end;
+    }
+
+    &-description {
+        width: 77vw;
+        margin-top: 0;
+        align-self: center;
+    }
+
+    &-header {
+        line-height: 6.3vw;
+        font-size: 6vw;
+    }
+
+    &-text {
+        font-size: 2.5vw;
+        line-height: 4.5vw;
+    }
+}
+
+
+.sqr6 {
+    left: 0vw;
+    top: 35vw;
+}
+
+.sqr8 {
+    width: 35px;
+    height: 35px;
+    left: 30vw;
+    top: 10vw;
+}
+
+.sqr10 {
+    left: 21vw;
+    top: 61vw;
+}
+
+.sqr11 {
+    left: 81vw;
+    top: 107vw;
+}
+
+.sec4 {
+    top: 140vw;
+    padding: 0 39px;
+
+    .sec4-cards {
+        gap: 30px;
+        flex-direction: column;
+
+        .card {
+            width: 100%;
+        }
+
+        .card-img-overlay {
+            top: 65%;
+        }
+
+        .head {
+            line-height: 1vw;
+            font-size: 4vw;
+        }
+
+        .text {
+            font-size: 2.4vw;
+        }
+    }
+
+
+    .second-header {
+        width: 75vw;
+        font-size: 6.2vw;
+        line-height: 8.5vw;
+        padding-top: 10vw;
+    }
+
+    .form {
+        flex-direction: column;
+        width: 75vw;
+
+        .email-box {
+            width: 75vw;
+            padding: .14rem .8rem;
+        }
+
+        .email-box::placeholder {
+            font-size: 3vw;
+        }
+
+        .email-text {
+            padding: .5rem .8rem;
+            font-size: 3vw;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        .btn {
+            margin: 0 auto;
+            font-size: 3vw;
+        }
+    }
+}
+
+.sec5 {
+    top: 148vw;
+    padding: 0 25px;
+    padding-bottom: 30vw;
+
+    .header {
+        width: 75vw;
+        font-size: 6.2vw;
+        line-height: 8.5vw;
+    }
+
+    .brands {
+        padding: 5vw 7vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 18px;
+
+    }
+
+    .brand {
+        width: 33vw;
+        height: 5vw;
+    }
+
+    .brand1 {
+        width: 29vw;
+        height: 6vw;
+        order: 3;
+    }
+
+    .brand2 {
+        width: 20vw;
+        height: 9vw;
+        order: 1;
+    }
+
+    .brand3 {
+        width: 24vw;
+        height: 6vw;
+        order: 5;
+    }
+
+    .brand4 {
+        order: 4;
+    }
+
+    .brand5 {
+        order: 2;
+    }
+}
+
+.get-started {
+    top: 124vw;
+    padding: 12vw 39px;
+
+    .header {
+        font-size: 36px;
+        padding-bottom: 10vw;
+    }
+}
+
+.footer {
+    top: 124vw;
+
+    .footer-menu {
+        flex-direction: column;
+        gap: 20px;
+
+
+        li {
+            font-size: 3vw;
+        }
+    }
+
+    .menu-logo {
+        .logo-photo {
+            width: 7.5vw;
+            height: 5.5vw;
+        }
+
+        .logo-text {
+            font-size: 4.5vw;
+        }
+    }
+
+    .groups {
+        display: flex;
+        gap: 21.5vw;
+    }
+
+    .group1 {
+        gap: 0;
+        flex-direction: column;
+
+
+        .list1 {
+            margin-bottom: 0;
+        }
+    }
+
+    .group2 {
+        gap: 0;
+        flex-direction: column;
+
+
+        .list3 {
+            margin-bottom: 0;
+        }
+    }
+
+    .copyright {
+        padding: 6vw 0;
+        font-size: 2.3vw;
+        flex-direction: column;
+        gap: 20px;
+
+        .first {
+            flex-direction: column;
+        }
+
+        .second {
+            gap: 0;
+            flex-direction: column;
+        }
+
+        p {
+            margin-bottom: 5px;
+        }
+    }
+}

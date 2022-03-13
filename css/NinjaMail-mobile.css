@@ -1,0 +1,287 @@
+.menu-list .menu-link {
+  display: none;
+}
+.menu-list .menu-btn {
+  margin-left: 0px;
+}
+
+.hero {
+  margin-bottom: 15vw;
+}
+.hero-body {
+  top: 50px;
+  left: 0;
+  max-width: 100%;
+  padding: 10px;
+  position: relative;
+}
+.hero-header {
+  font-size: 36px;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  top: 22px;
+  max-width: 100%;
+}
+.hero-text {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0 !important;
+}
+.hero-photo {
+  left: 0;
+  padding: 10px;
+  position: relative;
+}
+.hero-img {
+  width: 100%;
+}
+
+.bg-shapes1 {
+  display: none;
+}
+
+.video {
+  padding: 12vw 15px;
+  height: 165vw;
+}
+.video .card {
+  width: 100%;
+}
+.video .card .btn {
+  padding: 6px 15px;
+}
+.video .card .card-img-overlay {
+  padding: 14vw 0;
+}
+.video-header {
+  font-size: 22px;
+}
+
+.sec3 .sec3-bg {
+  transform: skewY(-20deg);
+  background: #CAEAC7 url(../img/bg-effect-light-2.png) no-repeat;
+  background-size: 120vw;
+  background-position: -21vw 83vw;
+  height: 164vw;
+  top: -24.5vw;
+}
+.sec3 .containers {
+  flex-direction: column;
+  padding: 0 15px;
+  top: -90vw;
+}
+.sec3 .card-sec3 {
+  width: 60vw;
+  box-shadow: 0px 0px 12px -2px rgba(147, 146, 146, 0.92);
+}
+.sec3 .card-sec3 .card-body {
+  padding: 4vw 4.2vw;
+}
+.sec3 .card-sec3 .card-text {
+  line-height: 4.5vw;
+  font-size: 2.5vw;
+}
+.sec3 .card-sec3 .card-link {
+  font-size: 2.5vw;
+}
+.sec3 .card1 {
+  align-self: flex-start;
+}
+.sec3 .card2 {
+  margin: 4vw 0;
+  align-self: flex-end;
+}
+.sec3-description {
+  width: 77vw;
+  margin-top: 0;
+  align-self: center;
+}
+.sec3-header {
+  line-height: 6.3vw;
+  font-size: 6vw;
+}
+.sec3-text {
+  font-size: 2.5vw;
+  line-height: 4.5vw;
+}
+
+.sqr6 {
+  left: 0vw;
+  top: 35vw;
+}
+
+.sqr8 {
+  width: 35px;
+  height: 35px;
+  left: 30vw;
+  top: 10vw;
+}
+
+.sqr10 {
+  left: 21vw;
+  top: 61vw;
+}
+
+.sqr11 {
+  left: 81vw;
+  top: 107vw;
+}
+
+.sec4 {
+  top: 140vw;
+  padding: 0 39px;
+}
+.sec4 .sec4-cards {
+  gap: 30px;
+  flex-direction: column;
+}
+.sec4 .sec4-cards .card {
+  width: 100%;
+}
+.sec4 .sec4-cards .card-img-overlay {
+  top: 65%;
+}
+.sec4 .sec4-cards .head {
+  line-height: 1vw;
+  font-size: 4vw;
+}
+.sec4 .sec4-cards .text {
+  font-size: 2.4vw;
+}
+.sec4 .second-header {
+  width: 75vw;
+  font-size: 6.2vw;
+  line-height: 8.5vw;
+  padding-top: 10vw;
+}
+.sec4 .form {
+  flex-direction: column;
+  width: 75vw;
+}
+.sec4 .form .email-box {
+  width: 75vw;
+  padding: 0.14rem 0.8rem;
+}
+.sec4 .form .email-box::-moz-placeholder {
+  font-size: 3vw;
+}
+.sec4 .form .email-box:-ms-input-placeholder {
+  font-size: 3vw;
+}
+.sec4 .form .email-box::placeholder {
+  font-size: 3vw;
+}
+.sec4 .form .email-text {
+  padding: 0.5rem 0.8rem;
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 0;
+}
+.sec4 .form .btn {
+  margin: 0 auto;
+  font-size: 3vw;
+}
+
+.sec5 {
+  top: 148vw;
+  padding: 0 25px;
+  padding-bottom: 30vw;
+}
+.sec5 .header {
+  width: 75vw;
+  font-size: 6.2vw;
+  line-height: 8.5vw;
+}
+.sec5 .brands {
+  padding: 5vw 7vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 18px;
+}
+.sec5 .brand {
+  width: 33vw;
+  height: 5vw;
+}
+.sec5 .brand1 {
+  width: 29vw;
+  height: 6vw;
+  order: 3;
+}
+.sec5 .brand2 {
+  width: 20vw;
+  height: 9vw;
+  order: 1;
+}
+.sec5 .brand3 {
+  width: 24vw;
+  height: 6vw;
+  order: 5;
+}
+.sec5 .brand4 {
+  order: 4;
+}
+.sec5 .brand5 {
+  order: 2;
+}
+
+.get-started {
+  top: 124vw;
+  padding: 12vw 39px;
+}
+.get-started .header {
+  font-size: 36px;
+  padding-bottom: 10vw;
+}
+
+.footer {
+  top: 124vw;
+}
+.footer .footer-menu {
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer-menu li {
+  font-size: 3vw;
+}
+.footer .menu-logo .logo-photo {
+  width: 7.5vw;
+  height: 5.5vw;
+}
+.footer .menu-logo .logo-text {
+  font-size: 4.5vw;
+}
+.footer .groups {
+  display: flex;
+  gap: 21.5vw;
+}
+.footer .group1 {
+  gap: 0;
+  flex-direction: column;
+}
+.footer .group1 .list1 {
+  margin-bottom: 0;
+}
+.footer .group2 {
+  gap: 0;
+  flex-direction: column;
+}
+.footer .group2 .list3 {
+  margin-bottom: 0;
+}
+.footer .copyright {
+  padding: 6vw 0;
+  font-size: 2.3vw;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .copyright .first {
+  flex-direction: column;
+}
+.footer .copyright .second {
+  gap: 0;
+  flex-direction: column;
+}
+.footer .copyright p {
+  margin-bottom: 5px;
+}/*# sourceMappingURL=NinjaMail-mobile.css.map */
